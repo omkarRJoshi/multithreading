@@ -33,3 +33,14 @@ static void sleep() // it sleeps a thread for the specified amount of time
 static thread currentThread() // return the reference to the currently executing thread object
 void join() //waits for a thread to die
 static void yield() //causes the currently executing thread object to pause and allow other thread to execute temporarily
+
+### Life cycle of a Thread
+> New
+> Active - 1)Runnable 2)Running
+> Blocked/Waiting
+> Timed Waiting
+
+### How to creare threads in java
+#### 1) By extending Thread class
+#### 2) By implementing Runnable interface
+> Terminated
