@@ -14,6 +14,16 @@ public class ThreadPriorityExample extends Thread{
 		System.out.println(t1.getPriority());
 		System.out.println(t2.getPriority());
 		System.out.println(t3.getPriority());
+		
+		t1.setPriority(MAX_PRIORITY);
+		t2.setPriority(MIN_PRIORITY);
+		t3.setPriority(NORM_PRIORITY);
+		
+		System.out.println(t1.getPriority());
+		System.out.println(t2.getPriority());
+		System.out.println(t3.getPriority());
+		
+		
 	}
 
 }

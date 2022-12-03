@@ -1,6 +1,6 @@
 package com.multiThreading;
 
-public class SecondThreadProgram implements Runnable{
+public class SecondThreadProgram implements Runnable {
 
 	public void run() {
 		System.out.println("Thread is running..... by implementing Runnable interface");
