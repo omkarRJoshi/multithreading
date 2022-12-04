@@ -7,6 +7,7 @@ public class SecondThreadProgram implements Runnable {
 	}
 	public static void main(String[] args) {
 		SecondThreadProgram stp1 = new SecondThreadProgram();
+		//need to pass object of runnable interface for constructor of Thread(objRunnable)
 		Thread t1 = new Thread(stp1);
 		t1.start();
 
